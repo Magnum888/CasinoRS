@@ -1,3 +1,39 @@
+@font-face{
+    font-family: 'PFBeauSansProRegular';
+    src: url('../fonts/pfbeausanspro-reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'PFBeauSansProBold';
+    src: url('../fonts/pfbeausanspro-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'PFBeauSansProBlack';
+    src: url('../fonts/pfbeausanspro-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ArialBold';
+    src: url('../fonts/arial_bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ArialBoldItalic';
+    src: url('../fonts/arialbi.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'ArialItalic';
+    src: url('../fonts/ariali.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 body{
     margin: 0;
     height: 500px;
@@ -340,3 +376,160 @@ footer .footer-button-txt-sm{
     margin-right: 35px;
 }
 /*END FOOTER*/
+
+#container{
+    background: url("../images/body-bg.png");
+    height: auto;
+}
+@media screen and (min-width: 1001px) {
+    .content-body{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .login{
+        margin-top: 24px;
+        width: 298px;
+        height: 241px;
+    }
+    .text-body-bg{
+        margin-top: 24px;
+        margin-left: 15px;
+        margin-bottom: 24px;
+        margin-right: 15px;
+        padding: 0;
+        width: 265px;
+        height: 200px;
+        display: inline-block;
+    }
+}
+.login{
+    background-color: rgba(0,0,0, 0.45);
+    border-radius: 4px;
+    /*opacity: 0.45;*/
+    /*-webkit-box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);*/
+    /*-moz-box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);*/
+    /*box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);*/
+}
+.register{
+    background-color: rgba(0,0,0, 0.45);
+    border-radius: 4px;
+    width: 298px;
+    height: 91px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ontext-login{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'ArialBoldItalic', Arial , sans-serif;
+    margin-top: 10px;
+}
+.text-body-bg h1{
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+#inputNameUser,
+#inputPassword{
+    color: #ababab;
+    font-size: 14px;
+    font-family: Arial , sans-serif;
+}
+.form-group input[type='text'],
+.form-group input[type='password']{
+    height: 41px;
+    width: 269px;
+    -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.58);
+    box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.58);
+}
+.form-horizontal > :nth-child(2),
+.form-horizontal > :nth-child(3){
+    margin-bottom: 0px;
+}
+
+/*.text-body-bg h1 p{*/
+    /*display: inline-block;*/
+/*}*/
+.text-body-bg-1,
+.text-body-bg-4,
+.text-body-bg-3 :last-child{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'PFBeauSansProRegular',Arial, sans-serif;
+}
+.text-body-bg-2{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'PFBeauSansProBold',Arial, sans-serif;
+}
+.text-body-bg-3 :first-child{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'PFBeauSansProBlack',Arial, sans-serif;
+}
+.helplogin,
+.helplogin :hover{
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+/*.btn-login a{*/
+    /*color: #ffffff;*/
+    /*font-size: 18px;*/
+    /*font-family: Arial, sans-serif;*/
+    /*text-decoration: none;*/
+    /*!*background: url("../images/btn-body-bg.png");*!*/
+/*}*/
+.btn-login button.btn.btn-default{
+    width: 122px;
+    height: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Arial Bold', Arial sans-serif;
+    text-decoration: none;
+    background: rgba(255,0,0,1);
+    background: -moz-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(157,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(100%, rgba(157,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(157,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(157,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(157,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,0,0,1) 0%, rgba(157,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#9d0000', GradientType=0 );
+    -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0 solid #ff0000;
+}
+.btn-login button.btn.btn-default :hover,
+.btn-login button.btn.btn-default :focus{
+    color: #ffffff;
+}
+.text-register{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'ArialItalic', Arial sans-serif;
+    text-align: center;
+}
+.register .btn.btn-success{
+    width: 271px;
+    height: 41px;
+}
+.register .btn.btn-success span{
+    /*text-shadow: 1px 0px 1px #ffffff;*/
+    font-size: 20px;
+    font-family: 'ArialBold', Arial sans-serif;
+    text-align: center;
+}
