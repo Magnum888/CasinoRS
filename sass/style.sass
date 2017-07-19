@@ -1,0 +1,875 @@
+@font-face
+  font-family: 'PFBeauSansProRegular'
+  src: url('../fonts/pfbeausanspro-reg.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'PFBeauSansProBold'
+  src: url('../fonts/pfbeausanspro-bold.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'PFBeauSansProBlack'
+  src: url('../fonts/pfbeausanspro-black.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'ArialBold'
+  src: url('../fonts/arial_bold.ttf') format("truetype")
+  font-weight: bold
+  font-style: normal
+
+
+@font-face
+  font-family: 'ArialBoldItalic'
+  src: url('../fonts/arialbi.ttf') format("truetype")
+  font-weight: bold
+  font-style: italic
+
+
+@font-face
+  font-family: 'ArialItalic'
+  src: url('../fonts/ariali.ttf') format("truetype")
+  font-weight: normal
+  font-style: italic
+
+
+body
+  margin: 0
+  height: 500px
+
+/*HEADER
+
+header
+  height: 72px
+  background: url("../images/header-bg.png")
+  .row.header-content
+    .navbar-default
+      min-height: 72px
+      margin-bottom: 0px
+      border: 0
+      background: url("../images/header-bg.png")
+    .container-fluid
+      min-height: 72px
+      border: 0
+      padding: 0
+      .navbar-header, .navbar-collapse, .navbar-nav
+        min-height: 72px
+      .navbar-logo
+        padding-left: 19px
+        padding-right: 19px
+        padding-bottom: 15px
+        padding-top: 15px
+      .navbar-header
+        width: 277px
+        p
+          display: inline-block
+          margin: 0
+          float: right
+          padding-bottom: 24px
+          padding-top: 23px
+          padding-left: 28px
+          padding-right: 28px
+          font-size: 18px
+          font-family: Arial, sans-serif
+          color: #5bff99
+          font-weight: normal
+          font-variant-ligatures: normal
+          -webkit-font-feature-settings: "calt" 1
+          -moz-font-feature-settings: "calt" 1
+          -ms-font-feature-settings: "calt" 1
+          font-feature-settings: "calt" 1
+
+.header-line
+  width: 1px
+  height: 72px
+  background-color: #212121
+  display: inline-block
+
+.navbar-collapse
+  .navbar-nav a
+    padding: 0
+    height: 72px
+    p
+      padding: 0
+      margin: 0
+      &.top-head-link
+        padding: 0
+        padding-top: 5px
+        padding-left: 2px
+        padding-right: 2px
+        margin: 0
+        text-align: right
+        color: #5bff99
+        font-size: 14px
+        font-family: Arial, sans-serif
+        font-weight: normal
+        font-variant-ligatures: normal
+        -webkit-font-feature-settings: "calt" 1
+        -moz-font-feature-settings: "calt" 1
+        -ms-font-feature-settings: "calt" 1
+        font-feature-settings: "calt" 1
+      &.head-link
+        padding-left: 5px
+        padding-right: 5px
+        margin: 0
+        color: #ffffff
+        text-align: center
+        font-size: 18px
+        font-family: Arial, sans-serif
+        font-weight: normal
+        font-variant-ligatures: normal
+        -webkit-font-feature-settings: "calt" 1
+        -moz-font-feature-settings: "calt" 1
+        -ms-font-feature-settings: "calt" 1
+        font-feature-settings: "calt" 1
+  .nav.navbar-nav
+    width: 723px
+    \:nth-child(4) a, :nth-child(6) a, :nth-child(8) a
+      padding-top: 25px
+    button
+      width: 105px
+      height: 61px
+      margin-top: 5px
+      margin-bottom: 5px
+      margin-left: 10px
+      margin-right: 10px
+      float: right
+      background: #ad1e1e
+      background: -moz-linear-gradient(top, #ad1e1e 0%, #ad1e1e 100%)
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, #ad1e1e), color-stop(100%, #ad1e1e))
+      background: -webkit-linear-gradient(top, #ad1e1e 0%, #ad1e1e 100%)
+      background: -o-linear-gradient(top, #ad1e1e 0%, #ad1e1e 100%)
+      background: -ms-linear-gradient(top, #ad1e1e 0%, #ad1e1e 100%)
+      background: linear-gradient(to bottom, #ad1e1e 0%, #ad1e1e 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad1e1e', endColorstr='#ad1e1e', GradientType=0 )
+      img
+        display: block
+        float: left
+        padding-top: 5px
+      span
+        float: right
+        white-space: pre-wrap
+        width: 50px
+        font-size: 14px
+        font-family: Arial, sans-serif
+        text-align: center
+
+.line-under-header
+  height: 3px
+  background-color: #07904e
+
+/*END HEADER
+
+/*FOOTER
+
+.row.content-above-footer
+  border: 1px solid #1e1e1e
+  height: 77px
+  background-color: #2d2d2d
+  margin: 0
+
+footer
+  background-color: #212121
+
+.row.content-above-footer .center-links
+  div.col-xs-12.col-sm-6
+    padding: 0
+  .left-center-links a, .right-center-links a
+    /*width: calc(100%/6);
+    /*width: -moz-calc(100%/6);
+    /*width: -webkit-calc(100%/6);
+    padding: 0
+    text-align: center
+    margin: auto
+
+.left-center-links, .right-center-links
+  display: flex
+  flex-direction: row
+  justify-content: center
+  height: 77px
+  align-items: center
+
+.row.content-above-footer .center-links .left-center-links :nth-child(2)
+  height: 40px
+
+.footer-block-text p
+  font-size: 11px
+  font-family: Arial, sans-serif
+  text-align: center
+  color: #7d7d7d
+  margin-bottom: 12px
+  margin-top: 12px
+
+.footer-block > p
+  text-transform: uppercase
+  font-size: 16px
+  font-family: Arial, sans-serif
+  border-bottom: 1px solid #272727
+  text-align: center
+  color: #7d7d7d
+  padding-top: 29px
+  padding-bottom: 15px
+  margin: 0
+
+footer
+  .footer-button-txt-xs
+    font-size: 10px
+    font-family: Arial, sans-serif
+    text-align: center
+    margin-top: 50px
+    margin-left: 35px
+    margin-right: 35px
+    margin-bottom: 0
+  .footer-button-txt-sm
+    font-size: 10px
+    font-family: Arial, sans-serif
+    text-align: center
+    margin-bottom: 20px
+    margin-left: 35px
+    margin-right: 35px
+
+/*END FOOTER
+
+.login
+  background-color: rgba(0, 0, 0, 0.45)
+  border-radius: 4px
+/*opacity: 0.45;
+/*-webkit-box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);
+/*-moz-box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);
+/*box-shadow: inset 0px 0px 4px 63px rgba(0,0,0,1);
+
+.register
+  background-color: rgba(0, 0, 0, 0.45)
+  border-radius: 4px
+  width: 298px
+  height: 91px
+  float: left
+  margin-top: 10px
+  margin-bottom: 10px
+
+.ontext-login
+  color: #ffffff
+  font-size: 24px
+  font-family: 'ArialBoldItalic', Arial , sans-serif
+  margin-top: 10px
+
+.text-body-bg h1
+  text-transform: capitalize
+  margin-bottom: 16px
+  margin-top: 0
+
+#inputNameUser, #inputPassword
+  color: #ababab
+  font-size: 14px
+  font-family: Arial , sans-serif
+
+.form-group input
+  &[type='text'], &[type='password']
+    height: 41px
+    width: 269px
+    -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.58)
+    -moz-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.58)
+    box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.58)
+
+.form-horizontal >
+\:nth-child(2), :nth-child(3)
+  margin-bottom: 0px
+
+/*.text-body-bg h1 p{
+/*display: inline-block;
+/*}
+
+.text-body-bg-1, .text-body-bg-4, .text-body-bg-3 :last-child
+  color: #ffffff
+  font-size: 36px
+  font-family: 'PFBeauSansProRegular',Arial, sans-serif
+
+.text-body-bg-2
+  color: #ffffff
+  font-size: 36px
+  font-family: 'PFBeauSansProBold',Arial, sans-serif
+
+.text-body-bg-3 :first-child
+  color: #ffffff
+  font-size: 36px
+  font-family: 'PFBeauSansProBlack',Arial, sans-serif
+
+.helplogin
+  color: #ffffff
+  font-size: 11px
+  font-family: Arial, sans-serif
+  text-decoration: none
+  \:hover
+    color: #ffffff
+    font-size: 11px
+    font-family: Arial, sans-serif
+    text-decoration: none
+
+.btn-login button.btn.btn-default
+  width: 122px
+  height: 44px
+  padding-top: 10px
+  padding-bottom: 10px
+  float: right
+  color: #ffffff
+  font-size: 18px
+  font-family: 'Arial Bold', Arial sans-serif
+  text-decoration: none
+  background: rgba(255, 0, 0, 1)
+  background: -moz-linear-gradient(top, rgba(255, 0, 0, 1) 0%, rgba(157, 0, 0, 1) 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 0, 0, 1)), color-stop(100%, rgba(157, 0, 0, 1)))
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 1) 0%, rgba(157, 0, 0, 1) 100%)
+  background: -o-linear-gradient(top, rgba(255, 0, 0, 1) 0%, rgba(157, 0, 0, 1) 100%)
+  background: -ms-linear-gradient(top, rgba(255, 0, 0, 1) 0%, rgba(157, 0, 0, 1) 100%)
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 0%, rgba(157, 0, 0, 1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#9d0000', GradientType=0 )
+  -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.75)
+  -moz-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.75)
+  box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.75)
+  border-radius: 4px 4px 4px 4px
+  -moz-border-radius: 4px 4px 4px 4px
+  -webkit-border-radius: 4px 4px 4px 4px
+  border: 0 solid #ff0000
+  \:hover, :focus
+    color: #ffffff
+
+.text-register
+  margin-top: 10px
+  margin-bottom: 5px
+  color: #ffffff
+  font-size: 18px
+  font-family: 'ArialItalic', Arial sans-serif
+  text-align: center
+
+.register .btn.btn-success
+  width: 271px
+  height: 41px
+  span
+    /*text-shadow: 1px 0px 1px #ffffff;
+    font-size: 20px
+    font-family: 'ArialBold', Arial sans-serif
+    text-align: center
+
+.box-proposition
+  padding: 0
+  height: 326px
+  width: 242px
+  background: rgba(168, 168, 168, 1)
+  background: -moz-linear-gradient(top, rgba(168, 168, 168, 1) 0%, rgba(255, 255, 255, 0.53) 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(168, 168, 168, 1)), color-stop(100%, rgba(255, 255, 255, 0.53)))
+  background: -webkit-linear-gradient(top, rgba(168, 168, 168, 1) 0%, rgba(255, 255, 255, 0.53) 100%)
+  background: -o-linear-gradient(top, rgba(168, 168, 168, 1) 0%, rgba(255, 255, 255, 0.53) 100%)
+  background: -ms-linear-gradient(top, rgba(168, 168, 168, 1) 0%, rgba(255, 255, 255, 0.53) 100%)
+  background: linear-gradient(to bottom, rgba(168, 168, 168, 1) 0%, rgba(255, 255, 255, 0.53) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8a8a8', endColorstr='#ffffff', GradientType=0 )
+
+.img-bahis
+  /*background: url("../images/img-bahis.png");
+  height: 129px
+  width: 100%
+  img
+    /*background: url("../images/img-bahis.png");
+    height: 129px
+    width: 100%
+
+.text-bahis
+  height: 43px
+  width: 100%
+  position: relative
+  background: rgba(255, 171, 27, 1)
+  background: -moz-linear-gradient(left, rgba(255, 171, 27, 1) 0%, rgba(255, 176, 28, 1) 100%)
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 171, 27, 1)), color-stop(100%, rgba(255, 176, 28, 1)))
+  background: -webkit-linear-gradient(left, rgba(255, 171, 27, 1) 0%, rgba(255, 176, 28, 1) 100%)
+  background: -o-linear-gradient(left, rgba(255, 171, 27, 1) 0%, rgba(255, 176, 28, 1) 100%)
+  background: -ms-linear-gradient(left, rgba(255, 171, 27, 1) 0%, rgba(255, 176, 28, 1) 100%)
+  background: linear-gradient(to right, rgba(255, 171, 27, 1) 0%, rgba(255, 176, 28, 1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffab1b', endColorstr='#ffb01c', GradientType=1 )
+  z-index: 1
+
+.text-canli-bahis
+  height: 43px
+  width: 100%
+  position: relative
+  background: #1b6fff
+  background: -moz-linear-gradient(top, #1b6fff 0%, #1b72ff 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #1b6fff), color-stop(100%, #1b72ff))
+  background: -webkit-linear-gradient(top, #1b6fff 0%, #1b72ff 100%)
+  background: -o-linear-gradient(top, #1b6fff 0%, #1b72ff 100%)
+  background: -ms-linear-gradient(top, #1b6fff 0%, #1b72ff 100%)
+  background: linear-gradient(to bottom, #1b6fff 0%, #1b72ff 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b6fff', endColorstr='#1b72ff', GradientType=0 )
+  z-index: 1
+
+.text-casino
+  height: 43px
+  width: 100%
+  position: relative
+  background: #87ae13
+  background: -moz-linear-gradient(top, #87ae13 0%, #88af13 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #87ae13), color-stop(100%, #88af13))
+  background: -webkit-linear-gradient(top, #87ae13 0%, #88af13 100%)
+  background: -o-linear-gradient(top, #87ae13 0%, #88af13 100%)
+  background: -ms-linear-gradient(top, #87ae13 0%, #88af13 100%)
+  background: linear-gradient(to bottom, #87ae13 0%, #88af13 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87ae13', endColorstr='#88af13', GradientType=0 )
+  z-index: 1
+
+.text-poker
+  height: 43px
+  width: 100%
+  position: relative
+  background: #ff3d1b
+  background: -moz-linear-gradient(top, #ff3d1b 0%, #ff3d1b 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff3d1b), color-stop(100%, #ff3d1b))
+  background: -webkit-linear-gradient(top, #ff3d1b 0%, #ff3d1b 100%)
+  background: -o-linear-gradient(top, #ff3d1b 0%, #ff3d1b 100%)
+  background: -ms-linear-gradient(top, #ff3d1b 0%, #ff3d1b 100%)
+  background: linear-gradient(to bottom, #ff3d1b 0%, #ff3d1b 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3d1b', endColorstr='#ff3d1b', GradientType=0 )
+  z-index: 1
+
+.box-img
+  z-index: 2
+  margin-bottom: 0px
+  padding-bottom: 0px
+  top: -8px
+  float: right
+  right: 5px
+
+.poker-color-before .box-img
+  top: -10px
+
+.text-proposition
+  width: 100%
+  /*height: 100%;
+  .row
+    margin: 0
+
+.text-proposition-left, .text-proposition-right
+  padding-left: 5px
+  padding-right: 5px
+
+.text-proposition-left h2
+  display: inline-block
+  color: #282828
+  font-size: 45px
+  font-family: 'ArialBold', Arial sans-serif
+
+.text-proposition-right
+  &.tx-poker
+    .first-tx-poker
+      margin-top: 0
+    top: -4px
+  \:nth-child(1)
+    display: inline-block
+    color: #282828
+    font-size: 17px
+    font-family: Arial sans-serif
+    margin-top: 10px
+    margin-bottom: 0px
+    text-align: center
+    width: 118px
+  \:nth-child(2)
+    color: #282828
+    font-size: 17px
+    font-family: 'ArialBold', Arial sans-serif
+    margin-top: 0px
+    text-align: center
+  .first-tx-casino, .first-tx-canli
+    margin-top: 15px
+
+.text-proposition-bottom h3
+  font-size: 11px
+  font-family: Arial sans-serif
+  margin-top: 5px
+  margin-bottom: 5px
+  text-align: center
+
+.btn-proposition-bottom button, .cb-btn-proposition-bottom button, .casino-btn-proposition-bottom button, .poker-btn-proposition-bottom button
+  color: #fffefe
+  font-size: 16px
+  font-family: Arial sans-serif
+  text-align: center
+  width: 205px
+  height: 38px
+  margin-left: 26px
+  margin-right: 26px
+
+.btn-proposition-bottom .btn-warning
+  background: #fb781b
+  background: -moz-linear-gradient(top, #fb781b 0%, #cc6618 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #fb781b), color-stop(100%, #cc6618))
+  background: -webkit-linear-gradient(top, #fb781b 0%, #cc6618 100%)
+  background: -o-linear-gradient(top, #fb781b 0%, #cc6618 100%)
+  background: -ms-linear-gradient(top, #fb781b 0%, #cc6618 100%)
+  background: linear-gradient(to bottom, #fb781b 0%, #cc6618 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb781b', endColorstr='#cc6618', GradientType=0 )
+
+.cb-btn-proposition-bottom .btn-warning
+  border-color: #0d48ae
+  background: #0d48ae
+  background: -moz-linear-gradient(top, #0d48ae 0%, #1a6cfa 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #0d48ae), color-stop(100%, #1a6cfa))
+  background: -webkit-linear-gradient(top, #0d48ae 0%, #1a6cfa 100%)
+  background: -o-linear-gradient(top, #0d48ae 0%, #1a6cfa 100%)
+  background: -ms-linear-gradient(top, #0d48ae 0%, #1a6cfa 100%)
+  background: linear-gradient(to bottom, #0d48ae 0%, #1a6cfa 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d48ae', endColorstr='#1a6cfa', GradientType=0 )
+
+.casino-btn-proposition-bottom .btn-warning
+  border-color: #63820e
+  background: #63820e
+  background: -moz-linear-gradient(top, #63820e 0%, #89b013 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #63820e), color-stop(100%, #89b013))
+  background: -webkit-linear-gradient(top, #63820e 0%, #89b013 100%)
+  background: -o-linear-gradient(top, #63820e 0%, #89b013 100%)
+  background: -ms-linear-gradient(top, #63820e 0%, #89b013 100%)
+  background: linear-gradient(to bottom, #63820e 0%, #89b013 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63820e', endColorstr='#89b013', GradientType=0 )
+
+.poker-btn-proposition-bottom .btn-warning
+  border-color: #ad2810
+  background: #ad2810
+  background: -moz-linear-gradient(top, #ad2810 0%, #ff3d1b 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ad2810), color-stop(100%, #ff3d1b))
+  background: -webkit-linear-gradient(top, #ad2810 0%, #ff3d1b 100%)
+  background: -o-linear-gradient(top, #ad2810 0%, #ff3d1b 100%)
+  background: -ms-linear-gradient(top, #ad2810 0%, #ff3d1b 100%)
+  background: linear-gradient(to bottom, #ad2810 0%, #ff3d1b 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad2810', endColorstr='#ff3d1b', GradientType=0 )
+
+.overlay
+  position: relative
+  &:before
+    position: absolute
+    content: " "
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: none
+    z-index: 0
+  &:hover:before
+    display: block
+
+.color-before:before
+  background-color: rgba(193, 97, 26, 1)
+
+.cb-color-before:before
+  background-color: #1864e7
+
+.casino-color-before:before
+  background-color: #799d11
+
+.poker-color-before:before
+  background-color: #e73718
+
+.text-bahis *, .text-canli-bahis *, .text-casino *
+  position: relative
+
+.text-poker
+  *
+    position: relative
+  h2
+    font-size: 22px
+    font-family: 'ArialBold', Arial sans-serif
+    text-align: left
+    /*text-shadow: 1px 1px #ffffff;
+    /*opacity: 0.2;
+    color: #ffffff
+    display: inline-block
+    margin-top: 9px
+    margin-left: 10px
+    margin-right: 10px
+
+.text-bahis h2, .text-canli-bahis h2, .text-casino h2
+  font-size: 22px
+  font-family: 'ArialBold', Arial sans-serif
+  text-align: left
+  /*text-shadow: 1px 1px #ffffff;
+  /*opacity: 0.2;
+  color: #ffffff
+  display: inline-block
+  margin-top: 9px
+  margin-left: 10px
+  margin-right: 10px
+
+@media (min-width: 1055px)
+  .box-content >
+  \:nth-child(1)
+    margin-right: 5px
+    margin-bottom: 66px
+    \:nth-child(2), :nth-child(3)
+      margin-left: 5px
+      margin-right: 5px
+      margin-bottom: 66px
+    \:nth-child(4)
+      margin-left: 5px
+      margin-bottom: 66px
+
+@media (min-width: 1000px) and (max-width: 1054px)
+  .box-content >
+  \:nth-child(1)
+    margin-right: 1px
+    margin-bottom: 66px
+    \:nth-child(2), :nth-child(3)
+      margin-left: 1px
+      margin-right: 1px
+      margin-bottom: 66px
+    \:nth-child(4)
+      margin-left: 1px
+      margin-bottom: 66px
+
+@media (min-width: 800px) and (max-width: 999px)
+  .box-content >
+  \:nth-child(1)
+    /*margin-right: 5px;
+    margin-bottom: 33px
+    \:nth-child(2), :nth-child(3)
+      /*margin-left: 5px;
+      /*margin-right: 5px;
+      margin-bottom: 33px
+    \:nth-child(4)
+      /*margin-left: 5px;
+      margin-bottom: 33px
+  .box-proposition
+/*width: 230px;
+/*margin: auto;
+
+@media (min-width: 801px) and (max-width: 965px)
+  .box-content >
+  \:nth-child(1)
+    margin-right: 10px
+    \:nth-child(2), :nth-child(3)
+      margin-left: 10px
+      margin-right: 10px
+    \:nth-child(4)
+/*margin-left: 10px;
+
+@media (min-width: 701px) and (max-width: 800px)
+  .box-proposition
+    margin-left: 5%
+    margin-right: 5%
+    margin-bottom: 10px
+    width: 240px
+
+@media (min-width: 601px) and (max-width: 700px)
+  .box-proposition
+    margin-left: 5%
+    margin-right: 5%
+    margin-bottom: 10px
+    width: 240px
+
+@media (min-width: 551px) and (max-width: 600px)
+  .box-proposition
+    margin-left: 2%
+    margin-right: 2%
+    margin-bottom: 10px
+    width: 240px
+
+@media (min-width: 501px) and (max-width: 550px)
+  .box-proposition
+    margin-left: 1%
+    margin-right: 1%
+    margin-bottom: 10px
+    width: 240px
+
+@media (min-width: 400px) and (max-width: 500px)
+  .box-proposition
+    margin-left: 19%
+    margin-right: 19%
+    margin-bottom: 10px
+    width: 260px
+
+@media (min-width: 350px) and (max-width: 400px)
+  .box-proposition
+    margin-left: 13%
+    margin-right: 13%
+    margin-bottom: 10px
+    width: 260px
+
+@media (min-width: 320px) and (max-width: 350px)
+  .box-proposition
+    margin-left: 9%
+    margin-right: 9%
+    margin-bottom: 10px
+    width: 260px
+
+@media (min-width: 1001px)
+  #container
+    background: url("../images/body-bg.png")
+    height: auto
+
+@media (max-width: 1050px)
+  #container .row.content-body
+    margin-left: 0px
+    margin-right: 0px
+    > .row
+      margin-left: 0px
+      margin-right: 0px
+  .row.box-content
+    margin-left: 0px
+    margin-right: 0px
+
+@media (min-width: 767px) and (max-width: 1000px)
+  #container .row.content-body
+    background: url("../images/min-body-bg-2.png") repeat
+
+@media (max-width: 766px)
+  #container .row.content-body
+    background: url("../images/mini-body-bg2.png") repeat
+
+@media (max-width: 600px)
+  .text-body-bg-1, .text-body-bg-2, .text-body-bg-3, .text-body-bg-4
+    display: inline-block
+
+@media screen and (min-width: 1001px)
+  .content-body
+    width: 1000px
+    margin: 0 auto
+
+@media screen and (min-width: 768px)
+  .login
+    margin-top: 24px
+    width: 298px
+    height: 241px
+  .text-body-bg
+    margin-top: 24px
+    margin-left: 15px
+    margin-bottom: 24px
+    margin-right: 15px
+    padding: 0
+    width: 265px
+    height: 200px
+    display: inline-block
+
+@media screen and (max-width: 767px)
+  .left-center-links, .right-center-links
+    height: 38px
+
+@media screen and (min-width: 1001px)
+  .row
+    &.content-footer, &.content-above-footer .center-links
+      width: 1000px
+      margin: 0 auto
+
+@media (max-width: 1000px)
+  .row
+    &.content-footer, &.content-above-footer .center-links
+      width: 100%
+      margin: 0 auto
+
+@media (max-width: 790px)
+  .navbar-collapse
+    .nav.navbar-nav
+      width: 518px
+    .navbar-nav a p
+      &.top-head-link
+        font-size: 8px
+      &.head-link
+        font-size: 12px
+
+@media (min-width: 791px) and (max-width: 850px)
+  .navbar-collapse
+    .nav.navbar-nav
+      width: calc(67% + 1%)
+      width: -moz-calc(67% + 1%)
+      width: -webkit-calc(67% + 1%)
+    .navbar-nav a p
+      &.top-head-link
+        font-size: 0.87em
+      &.head-link
+        font-size: 0.97em
+
+@media (min-width: 851px) and (max-width: 900px)
+  .navbar-collapse
+    .nav.navbar-nav
+      width: calc(69% + 1%)
+      width: -moz-calc(69% + 1%)
+      width: -webkit-calc(69% + 1%)
+    .navbar-nav a p
+      &.top-head-link
+        font-size: 1em
+      &.head-link
+        font-size: 1.1em
+
+@media (min-width: 901px) and (max-width: 999px)
+  .navbar-collapse
+    .nav.navbar-nav
+      width: 72%
+    .navbar-nav a p
+      &.top-head-link
+        font-size: 1em
+      &.head-link
+        font-size: 1.2em
+
+@media (max-width: 767px)
+  .collapse.navbar-collapse.in .header-line
+    width: auto
+    height: 1px
+  .navbar-collapse.in .nav.navbar-nav
+    width: auto
+    margin: 0
+  .collapse.navbar-collapse.in
+    margin: 0
+    padding: 0
+    height: auto
+    background-color: #454545
+    .navbar-nav
+      a
+        height: 50px
+        width: 100px
+        margin: 0 auto
+      \:nth-child(14)
+        height: 61px
+        width: 105px
+        margin: 0 auto
+  .navbar-collapse.in
+    .navbar-nav a p.top-head-link
+      padding-top: 0
+      padding-left: 0
+      padding-right: 0
+      height: 15px
+    .nav.navbar-nav
+      \:nth-child(4) a, :nth-child(6) a, :nth-child(8) a
+        padding-top: 15px
+
+@media (max-width: 1000px)
+  header .row.header-content .container-fluid .navbar-header
+    width: 250px
+    button
+      margin-right: 0
+      margin-top: 19px
+      margin-bottom: 19px
+
+@media (max-width: 767px)
+  header .row.header-content .container-fluid .navbar-header
+    width: 100%
+
+@media screen and (min-width: 1001px)
+  header .row.header-content
+    width: 1000px
+    height: 72px
+    margin: 0 auto
+
+@media (max-width: 1000px)
+  header .row.header-content
+    width: 100%
+    height: 72px
+    margin: 0 auto
+
+@media (min-width: 1000px)
+  .login, .register
+    margin-left: 15px
+    margin-right: 15px
+  .box-content
+    margin: 0
+  .nav.navbar-nav > :last-child
+    float: right

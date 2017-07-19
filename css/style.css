@@ -756,12 +756,16 @@ footer .footer-button-txt-sm{
 }
 @media (min-width: 767px) and (max-width: 1000px) {
     #container .row.content-body{
-        background: url("../images/min-body-bg-2.png") repeat;
+        background: url("../images/min-body-bg-2.png") no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 }
 @media(max-width: 766px){
     #container .row.content-body{
-        background: url("../images/mini-body-bg2.png") repeat;
+        background: url("../images/mini-body-bg2.png") no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 }
 @media (max-width: 600px) {
